@@ -1,0 +1,196 @@
+@media (max-width: 850px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .background {
+    align-items: center;
+  }
+
+  .menu-bg {
+    margin-left: 0px;
+    margin-top: 150px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.casino-name {
+  font-size: 60px;
+  border: solid 2px white;
+}
+
+.slogan {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.abonnement-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.abonnement {
+  margin: 0px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.prix {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.button-inscription {
+ height: 60px;
+ background-color: #f2f3fa;
+ border: none;
+ border-radius: 5px;
+ font-size: 20px;
+ margin-top: 25px;
+ cursor: pointer;
+ font-weight: bold;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+.connexion {
+  position: absolute;
+}
+
+p {
+  font-size: 10px;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+  .section {
+  width: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+  }
+
+  .section-2 {
+  display: flex;
+  flex-direction: column;
+  }
+
+
+  .img-section-container {
+  margin-top: 40px;
+}
+
+  .section-img {
+  width: 500px;
+}
+
+  .info-section-container {
+  width: 500px;
+  margin: 0px;
+  text-align: center;
+}
+
+}
+
+@media (max-width: 850px) {
+
+.section {
+width: 400px;
+display: flex;
+flex-direction: column-reverse;
+}
+
+.section-2 {
+display: flex;
+flex-direction: column;
+}
+
+
+.img-section-container {
+margin-top: 40px;
+}
+
+.section-img {
+width: 400px;
+}
+
+.info-section-container {
+width: 400px;
+margin: 0px;
+text-align: center;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+  .grid {
+  grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-1 {
+
+  height: 140px;
+  width: 220px;
+  object-fit: contain;
+  border-radius: 5px;
+  overflow: hidden;
+  }
+
+
+  .last-grid {
+  grid-column: 1 / -1;
+  justify-self: center;
+  }
+
+  .grid-info {
+  font-size: 15px;
+}
+
+.grid-title {
+  font-size: 25px;
+}
+
+.grid-title-container {
+  width: 500px;
+}
+
+.footer{
+  margin-top: 150px;
+}
+.footer-section-container{
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0px;
+  row-gap: 20px;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.info-service-container {
+  background-color: rgb(255, 225, 0);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+
+}
